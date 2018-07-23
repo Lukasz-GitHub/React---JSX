@@ -35,12 +35,6 @@ var App = React.createClass({
                 <ContactForm contact={contactForm} />
                 <Contacts items={contacts} />
             </div>
-<<<<<<< HEAD
         );
     }
 });
-=======
-        )
-    }
-});
->>>>>>> 258778c18a993d665391287ea23cb0ed1cf2d82c
