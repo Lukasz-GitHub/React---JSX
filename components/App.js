@@ -32,16 +32,9 @@ var App = React.createClass({
         return (
             <div className={'app'}>
                 <h1>Formularz Kontaktowy</h1>
-                React.createElement(ContactForm, {
-                    contact: contactForm
-                }),
-                React.createElement(Contacts, {
-                    items: contacts
-                }, {})
+                <ContactForm contact={contactForm} />
+                <Contacts items={contacts} />
             </div>
-            )
-
         );
     }
-
 });
