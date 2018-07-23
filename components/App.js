@@ -1,5 +1,3 @@
-'use strict';
-
 var contacts = [
     {
         id: 1,
@@ -37,4 +35,4 @@ var App = React.createClass({
             </div>
         );
     }
-});
+})

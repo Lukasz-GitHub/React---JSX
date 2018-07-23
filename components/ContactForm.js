@@ -1,5 +1,3 @@
-'use strict';
-
 var ContactForm = React.createClass({
     propTypes: {
         contact: React.PropTypes.object.isRequired

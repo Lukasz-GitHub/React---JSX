@@ -1,5 +1,3 @@
-'use strict';
-
 var Contact = React.createClass({
     propTypes: {
         item: React.PropTypes.object.isRequired,
@@ -21,4 +19,4 @@ var Contact = React.createClass({
             </div>
         );
     }
-});
+})
