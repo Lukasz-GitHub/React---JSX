@@ -35,6 +35,6 @@ var App = React.createClass({
                 <ContactForm contact={contactForm} />
                 <Contacts items={contacts} />
             </div>
-        );
+        )
     }
 });
